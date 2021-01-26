@@ -30,7 +30,7 @@ public class LoginDemo {
 
 	@Test
 	public void demoTest() throws InterruptedException {
-		driver.findElement(By.xpath("//input[@id='username']")).sendKeys("");
+		driver.findElement(By.xpath("//input[@id='username']")).sendKeys("123");
 		driver.findElement(By.xpath("//input[@id='password']")).sendKeys("");
 		driver.findElement(By.xpath("//*[@id=\"Login\"]")).click();
 		Thread.sleep(10000);
